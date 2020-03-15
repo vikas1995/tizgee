@@ -1,0 +1,132 @@
+@media (max-width:1199px) {
+    .banner-bottom {
+        bottom: -60px;
+    }
+    .footer-top {
+        top: -170px;
+    }
+}
+
+@media (max-width:1000px) {
+    .client-bottom, .client-top {
+        width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .navbar .container {
+        align-items: center;
+    }
+    .banner-text {
+        font-size: 46px;
+    }
+    .navbar-nav .request-btn {
+        margin: 15px 0 !important;
+    }
+    .navbar-light .navbar-toggler {
+        outline: none;
+        border: 1px solid #e9254e;
+    }
+    .banner-section {
+        height: 550px;
+    }
+    .service-icon {
+        width: 60px;
+    }
+    .service-box {
+        padding: 15px 10px;
+    }
+    .service-title {
+        font-size: 16px;
+    }
+    .service-box p {
+        font-size: 14px;
+    }
+    .what-we-do-section {
+        padding: 50px 0;
+        margin-bottom: 10px;
+    }
+    .learn-more-btn {
+        font-size: 16px;
+    }
+    .client-section {
+        padding: 120px 0;
+    }
+    .contact-list {
+        display: block;
+    }
+    .footer-top {
+        top: -120px;
+    }
+    .contact-list li {
+        margin-right: 0;
+    }
+    header {
+        background-color: rgba(255, 255, 255, .8);
+    }
+}
+
+@media (max-width:767px) {
+    .banner-text {
+        font-size: 36px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .sticky .logo {
+        width: 120px;
+    }
+    .banner-section {
+        height: 450px;
+    }
+    .service-box {
+        margin-bottom: 20px;
+    }
+    .what-we-do-section::before {
+        width: 100%;
+        opacity: 0.1;
+    }
+    .client-section {
+        padding: 100px 0;
+    }
+    .contact-box {
+        position: relative;
+        background-color: rgba(255, 255, 255, .8);
+    }
+    .footer-top {
+        top: -80px;
+    }
+    footer {
+        padding: 180px 15px 0;
+    }
+    .blue-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:575px) {
+    .banner-text {
+        font-size: 26px;
+    }
+    .banner-bottom {
+        bottom: -30px;
+    }
+    .banner-section {
+        height: 400px;
+    }
+    .service-section {
+        padding: 0;
+    }
+    .footer-top {
+        top: -40px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    .contact-list li {
+        font-size: 14px;
+    }
+    .blue-title {
+        font-size: 18px;
+    }
+}
