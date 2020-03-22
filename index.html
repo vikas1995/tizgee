@@ -111,9 +111,33 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 text-center">
                     <h2 class="blue-title">What Our clients are saying</h2>
-                    <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ”</p>
-                    <p>- Client Name</p>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ”</p>
+                                <p>- Client Name</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ”</p>
+                                <p>- Client Name 2</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ”</p>
+                                <p>- Client Name 3</p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -205,7 +229,7 @@
                 });
                 $('.service-title', this).height(highestBox);
             });
-            
+
 
             window.onscroll = function () { myFunction() };
             var header = document.getElementById("myHeader");
