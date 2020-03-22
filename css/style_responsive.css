@@ -111,6 +111,33 @@
     .carousel-inner {
         padding: 0 30px;
     }
+    .why-choose-section p {
+        padding: 0;
+    }
+    .round-number {
+        font-size: 30px;
+    }
+    .number-title {
+        font-size: 16px;
+    }
+    .number-round-center {
+        width: 80px;
+        height: 90px;
+    }
+    .why-choose-list .number-round {
+        height: 90px;
+        width: 90px;
+    }
+    .why-choose-list .number-round::before, .why-choose-list .number-round::after {
+        height: 90px;
+        width: 90px;
+    }
+    .why-choose-list {
+        margin-top: 30px;
+    }
+    .why-choose-list li:hover .number-round-center {
+        width: 90px;
+    }
 }
 
 @media (max-width:575px) {
@@ -143,5 +170,13 @@
     }
     .carousel-control-next {
         right: -14px;
+    }
+    .why-choose-list {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .why-choose-list li {
+        margin-top: 25px;
+        width: 50%;
     }
 }
